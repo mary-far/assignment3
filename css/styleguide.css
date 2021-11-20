@@ -1,0 +1,63 @@
+:root { 
+  --celeste: #cecece;
+  --cloud: #c6c6c6;
+  --dove-gray: #707070;
+  --horizon: #528d9f;
+  --periwinkle-gray: #c5cdde;
+  --river-bed: #3d4c57;
+  --sonic-silver: #717171;
+  --steel-blue: #437ca7;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 52px;
+  --font-size-xxxl: 55px;
+  --font-size-xxxxl: 77px;
+  --font-size-xxxxxl: 97px;
+ 
+  --font-family-freightsanspro-book: "FreightSansPro-Book", Helvetica;
+  --font-family-freightsanspro-medium: "FreightSansPro-Medium", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+}
+.freightsanspro-medium-celeste-20px {
+  color: var(--celeste);
+  font-family: var(--font-family-freightsanspro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.opensans-normal-cloud-28px {
+  color: var(--cloud);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.freightsanspro-medium-sonic-silver-20px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-freightsanspro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.opensans-bold-white-52px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-2px-periwinkle-gray {
+  border: 2px solid var(--periwinkle-gray);
+}
